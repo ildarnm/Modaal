@@ -568,9 +568,9 @@
 					var data_item_active = item.getAttribute('data-gallery-active');
 
 					// is it an img SRC or link HREF value
-					if ( item.href !== '' || item.href !== undefined ) {
+					if ( item.href !== '' && item.href !== undefined ) {
 						img_src = item.href;
-					} else if ( item.src !== '' || item.src !== undefined ) {
+					} else if ( item.src !== '' && item.src !== undefined ) {
 						img_src = item.src;
 					}
 
